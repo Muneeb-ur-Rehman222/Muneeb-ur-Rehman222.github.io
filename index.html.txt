@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Words</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .content {
+            padding: 2em;
+        }
+        .poem {
+            background-color: white;
+            margin-bottom: 1em;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>World of Words</h1>
+        <p>Where poetry comes alive</p>
+    </header>
+    <div class="content">
+        <div class="poem">
+            <h2>Poem Title</h2>
+            <p>Poem content goes here...</p>
+            <p><em>- Author Name</em></p>
+        </div>
+        <!-- More poems can be added here -->
+    </div>
+    <footer>
+        <p>&copy; 2024 World of Words. All rights reserved.</p>
+    </footer>
+</body>
+</html>
